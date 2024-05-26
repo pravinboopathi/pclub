@@ -37,10 +37,10 @@ const Navbar = () => {
 
     return (
         <div className="sticky bg-[#0d0c13] top-0 z-10 w-full shadow-md text-white">
-            <div className="flex flex-col md:flex-row items-center justify-between py-4 px-7 md:px-28">
+            <div className="flex flex-col md:flex-row md:items-center justify-between py-4 px-7 md:px-28">
                 <div className="flex items-center font-bold text-2xl cursor-pointer">
                     {/* <h1 className="text-3xl font-semibold px-3">Programming Club</h1> */}
-                    <img src={logoImg} alt="" className="text-3xl px-3  h-16 w-50" />
+                    <img src={logoImg} alt="" className="text-3xl pl-1 md:px-3  h-16 w-50" />
                     <div className="md:hidden ml-auto">
                         <MenuIcon onClick={toggleMenu} className="text-gray-700 text-3xl cursor-pointer" />
                     </div>
